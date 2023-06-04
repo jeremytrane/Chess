@@ -1,4 +1,5 @@
 public class FEN {
+    
     public static String[] deconstructFen(String fen) {
         String[] fields = fen.split(" ");
         String position = fields[0];
